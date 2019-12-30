@@ -20,7 +20,6 @@ for line in handle:
 lst = []       
 for value,key in count.items():
     lst.append((value,key))
-
 lst.sort()
 for value,key in lst:
     print (value,key)
